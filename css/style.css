@@ -5,8 +5,8 @@ li{
   }
 
   nav{
-    background: linear-gradient(to left, #8E3200 0%, #A64B2A 10% , #D7A86E, #698269);
-
+    background: linear-gradient(to left, #e98f19fa 0%, #ce8210fd 10% , #c2730b, #a75a12);
+    height: 70px;
   }
 
   h1,h2,h3,h4,p,a {
@@ -29,20 +29,20 @@ body {
   	background-color: #ffffff;
   	font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     background-image: url("pozadina.jpg") !important;
     background-size: contain;
     background-repeat: repeat;
-    background-position: 0 100px;
+    background-position: 0 80px;
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
 #searchBar{
     width: 100%;
-    height: 32px;
+    height: 20px;
     border-radius: 3px;
-    border: 1px solid wheat;
+    border: 1px solid rgb(178, 22, 22);
     padding: 50px 10 px;
     font-size: 12px;
 }
@@ -54,7 +54,7 @@ body {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .centered {
@@ -124,7 +124,7 @@ a:after {
 .navbar-brand {
 	font-weight: 700;
 	font-size: 20px;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 
 .navbar-inverse .navbar-brand {
@@ -154,8 +154,8 @@ a:after {
 
 #ww {
     margin-top: 100px;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	background-color: #D7A86E;
     opacity: 90%;
 }
@@ -226,7 +226,7 @@ li {
 
 
 div.modal-content, div.container.sir-form {
-    background-image: url("https://image.shutterstock.com/image-photo/cute-dogs-cats-together-hanging-260nw-1128546527.jpg");
+    background-image: url("https://www.daxia.com.br/ptbr/wp-content/uploads/2021/05/iStock-1271494334-750x325.jpg");
     background-size: 100% 35%;
     background-repeat: no-repeat;
     background-attachment: fixed; 
@@ -259,3 +259,52 @@ div.modal-content, div.container.sir-form {
 .cssLogin {
     background-image: url("http://article.murata.com/sites/default/files/static/ja-jp/images/article/iot-changes-life-with-pets/iot-changes-life-with-pets-main.jpg") !important;
 }
+
+#ww .col-lg-8 {
+    width: 90%; /* Adjust the width of the column */
+  }
+  
+  #ww .img-circle {
+    width: 49%; /* Adjust the width of the images */
+    margin-left: -350px;
+    margin-right: 0px;
+  }
+  
+  #ww h2 {
+    width: 39%; /* Adjust the width of the text */
+    margin-top: 10px;
+    color: white;
+    background-color: #A64B2A;
+    padding: 50px;
+    border-radius: 50%;
+  }
+  
+  #ww .img-circle:last-child {
+    margin-left: 20px; /* Adjust the margin of the second image */
+    margin-right: -60px;
+  }
+  
+  #searchDiv {
+    margin-top: 40px; /* Adjust the top margin for larger screens */
+    margin-bottom: 20px; /* Decrease the bottom margin for larger screens */
+  }
+  
+  #pretraga {
+    font-size: 20px;
+  }
+  
+  .pt {
+    margin-bottom: 300px; /* Increase the bottom margin for larger screens */
+  }
+  
+  #podaciPretraga {
+    font-size: 18px;
+    margin-top: -50px;
+  }
+  
+  .prijava-form {
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+ 

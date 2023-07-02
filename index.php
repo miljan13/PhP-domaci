@@ -35,9 +35,9 @@ if (isset($_COOKIE["admin"]))
 
 <body class="stranica">
 
-    <nav class="navbar navbar-expand-lg navbar-light" id="navCont" style="height:100px; ">
+    <nav class="navbar navbar-expand-lg navbar-light" id="navCont" style="height:80px; ">
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav p-lg-0 " style="margin-left: 2%; margin-top:10px;   ">
+                <div class="navbar-nav p-lg-0 " style="margin-left: 2%; margin-top:4px;   ">
                     <li><a id="btn-Pocetna" href="index.php" type="button" class="btn btn-success btn-block" >
                         Pocetna</a></li>
                     <li><a id="btn-Dodaj" type="button" class="btn btn-success btn-block"  data-toggle="modal" data-target="#my" >
@@ -46,7 +46,7 @@ if (isset($_COOKIE["admin"]))
                         Svi proizvodi</a></li>
                     <li><a id="btn-Pocetna" href="odjava.php" type="button" class="btn btn-success btn-block" >
                     Odjava</a> </li>
-                    <li> <h1 class="navbar-brand " style="color:white ; font-weight:bold; font-size:30px; margin-top:-60px; margin-left: 1100px; text-decoration:underline">
+                    <li> <h1 class="navbar-brand " style="color:white ; font-weight:bold; font-size:20px; margin-top:-67px; margin-left: 900px; text-decoration:underline">
                     Pet Republic</h1></li>
                 </div>
             </div>
@@ -55,10 +55,10 @@ if (isset($_COOKIE["admin"]))
     <div id="ww" >
         <div class="container">
             <div class="row" >
-                <div class="col-lg-8 col-lg-offset-2 centered" style="display:flex; justify-content:flex-start; align-items: center; width: 90%">
-                    <img src="https://c4.wallpaperflare.com/wallpaper/989/621/164/a-pup-in-spring-wallpaper-preview.jpg" alt="pocetna" class="img img-circle" style="width: 49%; margin-left:-350px; margin-right: 20px">
-                    <h2 style="color:white ; background-color:#A64B2A; padding:50px; border-radius:50%; margin-top:10px; width: 49%"> Dobrodosli u Pet Republic. Pronađite najbolje proizvode za vaše ljubimce!</h2>
-                    <img src="https://wallpapercrafter.com/sizes/1366x768/144539-flowers-animals-outdoors-dog-mammals-photography-depth-of-field.jpg" alt="pocetna" class="img img-circle" style="width: 49%; margin-left:20px; margin-right: -60px;">
+                <div class="col-lg-8 col-lg-offset-2 centered" style="display:flex; justify-content:flex-start; align-items: center; width: 80%">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/989/621/164/a-pup-in-spring-wallpaper-preview.jpg" alt="pocetna" class="img img-circle" style="width: 44%; margin-left:-250px; margin-right: 20px">
+                    <h2 style="color:white ; background-color:#A64B2A; padding:45px; border-radius:50%; margin-top:10px; width: 44%"> Dobrodosli u Pet Republic. Pronađite najbolje proizvode za vaše ljubimce!</h2>
+                    <img src="https://wallpapercrafter.com/sizes/1366x768/144539-flowers-animals-outdoors-dog-mammals-photography-depth-of-field.jpg" alt="pocetna" class="img img-circle" style="width: 44%; margin-left:20px; margin-right: -60px;">
 
                 </div>
             </div>

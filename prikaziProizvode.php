@@ -23,9 +23,9 @@ if (isset($_POST['kategorija'])) {
 
 <body class="stranica"  >
 
-<nav class="navbar navbar-expand-lg navbar-light" id="navCont" style="height:100px; ">
+<nav class="navbar navbar-expand-lg navbar-light" id="navCont" style="height:80px; ">
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav p-lg-0 " style="margin-left: 2%; margin-top:10px;   ">
+                <div class="navbar-nav p-lg-0 " style="margin-left: 2%; margin-top:4px;   ">
                     <li><a id="btn-Pocetna" href="index.php" type="button" class="btn btn-success btn-block" >
                         Pocetna</a></li>
                     <li><a id="btn-Dodaj" type="button" class="btn btn-success btn-block"  data-toggle="modal" data-target="#my" >
@@ -34,8 +34,8 @@ if (isset($_POST['kategorija'])) {
                         Svi proizvodi</a></li>
                     <li><a id="btn-Pocetna" href="odjava.php" type="button" class="btn btn-success btn-block" >
                     Odjava</a> </li>
-                    <li> <h1 class="navbar-brand " style="color:white ; font-weight:bold; font-size:30px; margin-top:-60px; margin-left: 1100px; text-decoration:underline">
-                    Pet Center</h1></li>
+                    <li> <h1 class="navbar-brand " style="color:white ; font-weight:bold; font-size:20px; margin-top:-67px; margin-left: 900px; text-decoration:underline">
+                    Pet Republic</h1></li>
                 </div>
             </div>
     </nav>
@@ -149,12 +149,12 @@ if (isset($_POST['kategorija'])) {
       array_push($niz, $proizvodi);
     }
     ?>
-    <p id="p" style="color:white; font-size:35px ;padding:10px; background-color:#A64B2A; border-radius:40%; text-align:left; max-width: 400px; padding-left: 90px; opacity:80% ">Svi proizvodi:</p>
+    <p id="p" style="color:white; font-size:25px ;padding:10px; background-color:#A64B2A; border-radius:40%; text-align:left; max-width: 300px; padding-left: 80px; opacity:80% ">Svi proizvodi:</p>
     <table class="table table-hover">
       <thead style="font-weight:500px; font-size:20px; color:white; background-color: #A64B2A">
         <tr>
           <th>Ime proizvoda</th>
-          <th>Nutritivna vrednost</th>
+          <th>Broj proizvoda</th>
           <th>Cena</th>
           <th>Kategorija proizvoda</th>
           <th>Obrisi proizvod</th>
